@@ -15,11 +15,6 @@ int fn(vector<int>& arr,int low,int high){
     swap(arr[low],arr[j]);
     return j;
 }
-void swap(vector<int>& a, vector<int>& b){
-    vector<int>temp=a;
-    a=b;
-    b=temp;
-}
 void qs(vector<int>& nums,int low,int high){
         if(low<high){
             int partition=fn(nums,low,high);
