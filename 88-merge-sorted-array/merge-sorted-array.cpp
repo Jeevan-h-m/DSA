@@ -25,5 +25,6 @@ public:
         for(int i=0;i<k;i++){
             nums1[i]=temp[i];
         }
+        temp.clear();
     }
 };
