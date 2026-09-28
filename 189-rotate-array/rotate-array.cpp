@@ -2,7 +2,6 @@ class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
-        vector<int> temp(n);
         k = k % n;
         reverse(nums.begin(),nums.begin()+n-k);
         reverse(nums.begin()+n-k,nums.begin()+n);
